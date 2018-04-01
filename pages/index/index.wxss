@@ -1,0 +1,100 @@
+.container {
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+
+.mainView {
+  margin-top: 30rpx;
+  width: 94%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.content {
+  width: 100%;
+}
+
+.userInfo {
+  padding: 30rpx;
+  display: flex;
+  flex-direction: row;
+  height: 100rpx;
+  justify-content: space-between;
+  opacity: 0.8;
+}
+
+.contentView {
+  width: 200rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 30rpx;
+}
+
+.username {
+  margin-top: 10rpx;
+  font-size: 26rpx;
+  color: gray;
+}
+
+.headImageView {
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.headImageView image {
+  width: 100%;
+  height: 100%;
+}
+
+.amountView {
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  width: 100%;
+  height: 150rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.amountText {
+  font-size: 30rpx;
+}
+
+.inputView {
+  margin-top: 10rpx;
+  height: 60rpx;
+  display: flex;
+  flex-direction: row;
+  font-size: 50rpx;
+}
+
+.amountInput {
+   margin-left: 20rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  vertical-align: middle;
+}
+.line-horizontal{
+  width: 100%;
+  height: 2rpx;
+  background: lightgray;
+}
+
+.payButton{
+  width: 80%;
+  height: 80rpx;
+  line-height: 80rpx;
+  vertical-align: middle;
+  border-radius: 5rpx;
+  background-color: #1AAD19;
+  color: white;
+  text-align: center;
+}

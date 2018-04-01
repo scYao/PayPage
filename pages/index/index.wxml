@@ -1,0 +1,38 @@
+<!--index.wxml-->
+<view class="container">
+  <!--付款界面 start  -->
+  <view class='mainView'>
+    <!--用户信息  start-->
+    <view class='content'>
+      <view class='userInfo'>
+        <view class='contentView'>
+          <text class='title'>付款给个人</text>
+          <text class='username'>昵称：slldkiol</text>
+        </view>
+
+        <view class='headImageView'>
+          <image src='/images/head.jpg'></image>
+        </view>
+      </view>
+      <!--用户信息  start-->
+
+      <!--金额 start  -->
+      <view class='amountView'>
+        <text class='amountText'>金额</text>
+        <view class='inputView'>
+          <text>￥</text>
+          <input class='amountInput' placeholder='sss'></input>
+        </view>
+        <view class='line-horizontal'></view>
+
+      </view>
+      <!--金额 end  -->
+      <view style='height:120rpx;align-items:center;display: flex;flex-direction: column;'>
+        <view class='payButton'>付款</view>
+      </view>
+
+    </view>
+  </view>
+  <!--付款界面 end  -->
+
+</view>
